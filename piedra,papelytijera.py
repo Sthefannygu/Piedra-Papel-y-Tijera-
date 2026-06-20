@@ -29,4 +29,8 @@ def iniciar_juego():
             print("Perdiste sigue intentando")
      if elecciondecompu == mieleccion:
             print("Obtuvieron un Empate") 
+         jugar_de_nuevo= input("Deseas intentarlo otra vez? (si/no)").lower()
+     if jugar_de_nuevo == "no": 
+         print("ADIOS")
+         break
 iniciar_juego()
